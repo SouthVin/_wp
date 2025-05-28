@@ -21,7 +21,7 @@ app.use((ctx) => {
 </html>
 `
   } else if (pathname == '/name') {
-    ctx.response.body = '周偉材'
+    ctx.response.body = '康晏祥'
   } else if (pathname == '/age'){
     ctx.response.body = '19'
   } else if (pathname == '/gender'){
@@ -29,7 +29,7 @@ app.use((ctx) => {
   } else if(pathname == 'university'){
     ctx.response.body = '金門大學'
   } else {
-    ctx.response.body = '111310524'
+    ctx.response.body = '111310526'
   }
   // ctx.response.body = 'Not Found!'
 });
